@@ -1,0 +1,15 @@
+{
+  "name": "Notes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yuweibao15/Notes.git",
+  "author": "yuweibao15 <ybao2@tulane.edu>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.51"
+  },
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  }
+}
