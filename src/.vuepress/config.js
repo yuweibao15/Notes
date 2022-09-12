@@ -8,7 +8,7 @@ module.exports = {
       nav: [
           {text: 'About', link: '/about/'},
           {text: 'Python Notes', link: '/python_notes/'},
-          {text: 'R Notes', link: '/r_notes/'}
+          {text: 'Markdown Enhance', link: '/markdown_enhance/'}
       ],
     //   sidebar: 'auto',
       sidebar: {
@@ -17,14 +17,27 @@ module.exports = {
           'matplotlib',
           'pip_note',
         ],
-        '/r_notes/': [
+        '/markdown_enhance/': [
           '',
           'v1',
           'v2',
+          'v3',
         ],
       }
     
     },
+
+    plugins: [
+        [
+          "md-enhance",
+          {
+            flowchart: true,
+            codegroup: true,
+            mermaid: true,
+            presentation: true,
+          },
+        ],
+      ],
   
     lastUpdated: 'Last Updated',
   };
