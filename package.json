@@ -6,10 +6,12 @@
   "author": "yuweibao15 <ybao2@tulane.edu>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.51"
+    "vuepress": "^1.9.7",
+    "vuepress-plugin-auto-sidebar": "^2.4.0-alpha.5"
   },
   "scripts": {
     "dev": "vuepress dev src",
     "build": "vuepress build src"
-  }
+  },
+  "dependencies": {}
 }
