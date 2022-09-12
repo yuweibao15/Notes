@@ -1,7 +1,7 @@
 module.exports = {
     title: "Yuwei's Notes",
     description: 'Just playing around',
-    base: "/",
+    base: "/notes/",
     dest: "./docs",
   
     themeConfig: {
