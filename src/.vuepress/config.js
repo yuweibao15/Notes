@@ -11,18 +11,18 @@ module.exports = {
           {text: 'R Notes', link: '/r_notes/'}
       ],
     //   sidebar: 'auto',
-    // //   sidebar: {
-    // //     '/python_notes/': [
-    // //       '',
-    // //       'matplotlib',
-    // //       'pip_note',
-    // //     ],
-    // //     '/r_notes/': [
-    // //       '',
-    // //       'v1',
-    // //       'v2',
-    // //     ],
-    // //   }
+      sidebar: {
+        '/python_notes/': [
+          '',
+          'matplotlib',
+          'pip_note',
+        ],
+        '/r_notes/': [
+          '',
+          'v1',
+          'v2',
+        ],
+      }
     
     },
   
