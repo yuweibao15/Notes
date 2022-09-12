@@ -6,8 +6,7 @@
   "author": "yuweibao15 <ybao2@tulane.edu>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.9.7",
-    "vuepress-plugin-auto-sidebar": "^2.4.0-alpha.5"
+    "vuepress": "^1.9.7"
   },
   "scripts": {
     "dev": "vuepress dev src",
